@@ -5,7 +5,7 @@ const s = Object.create(style);
 s.root = {
   fontFamily: 'helvetica, sans-serif',
   fontWeight: '300',
-  fontSize: '16px',
+  fontSize: '20px',
   letterSpacing: '0.025em',
   padding: '3vh 0 12vh 0',
   width: '500px',
