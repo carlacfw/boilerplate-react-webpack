@@ -10,22 +10,22 @@ class Portfolio extends React.Component {
         </div>
       <div className='links'>
         <div className='memoryGame'>
-          <p>Webpage: </p><a href="http://playreact.herokuapp.com">Memory Game</a>
-          <p>Repo: </p><a href="https://github.com/carlacfw/memory-game">GitHub</a>
+          <a href="http://playreact.herokuapp.com">Memory Game</a>
+          <p>Repo: <a href="https://github.com/carlacfw/memory-game">GitHub Code</a></p>
         </div>
 
         <div className='sizzle'>
-          <p>Webpage: </p><a href="https://sizzzle.herokuapp.com">Sizzle</a>
-          <p>Repo: </p><a href="https://github.com/SizzleDevelopers/sizzle">GitHub</a>
+          <a href="https://sizzzle.herokuapp.com">Sizzle</a>
+          <p>Repo: <a href="https://github.com/SizzleDevelopers/sizzle">GitHub</a> </p>
         </div>
 
         <div className='upsetkiwi'>
-          <p>Webpage: </p><a href=" https://upsetkiwi.herokuapp.com">UpsetKiwi</a>
-          <p>Repo: </p><a href="https://github.com/carlacfw/upsetkiwi">GitHub</a>
+          <a href=" https://upsetkiwi.herokuapp.com">UpsetKiwi</a>
+          <p>Repo: <a href="https://github.com/carlacfw/upsetkiwi">GitHub</a></p>
         </div>
 
         <div className='calculator'>
-          <p>Webpage: </p><a href="https://codepen.io/carlacfw/pen/MomqOe">MyCalculator</a>
+          <a href="https://codepen.io/carlacfw/pen/MomqOe">MyCalculator</a>
         </div>
       </div>
     </div>
