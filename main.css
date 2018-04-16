@@ -1,43 +1,87 @@
 .links {
- width: 300px;
+ width: 800px;
  height: 600px;
  align-content: center;
  justify-content:center;
  text-align: center;
  margin: 0 auto;
- font-size: 30px;
+ margin-bottom: 100px;
+ background: #1ad1ff;
+ color: #ffffff;
 }
 h2.jump{
   cursor: pointer;
 }
 a:link {
   text-decoration: none;
-  color: black;
+  color: #ffffff;
 }
 a:visited {
     text-decoration: none;
-    color: black;
+    color: #ffffff;
+    text-shadow: 2px 2px #b3f0ff;
 }
-
 a:hover {
     text-decoration: underline;
 }
-
 a:active {
     text-decoration: underline;
 }
 .welcome {
   text-align: center;
-  margin-top: 20%;
-  margin-bottom: 30%;
+  margin-top: 200px;
+  margin-bottom: 500px;
   margin-left: auto;
   margin-right: auto;
   font-size: 30px;
-  background: #f2f2f2;
+  background: #1ad1ff;
+  color:  #ffffff;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  border-style: dashed;
 }
 .tech {
-  background: #f2f2f2;
+  background: #1ad1ff;
+}
+.memoryGame {
+  padding-left: 15px;
+  padding-right: 15px;
+  border-style: dashed;
+  margin-bottom: 10px;
+  font-size: 40px;
+  align-content: center;
+}
+.sizzle {
+  padding-left: 15px;
+  padding-right: 15px;
+  border-style: dashed;
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+.upsetkiwi {
+  padding-left: 15px;
+  padding-right: 15px;
+  border-style: dashed;
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+.calculator {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-style: dashed;
+  margin-bottom: 10px;
+  font-size: 40px;
 }
 body {
-  background: #f2f2f2;
+  background: #1ad1ff;
+}
+footer {
+  text-decoration: underline;
+  text-align: center;
+  font-size: 30px;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }

@@ -4,10 +4,10 @@ import { Switch, Route } from 'react-router-dom';
 import {Link} from 'react-router-dom';
 import jump from 'jump.js';
 import Portfolio from './Portfolio';
-import Home from './Home';
-import ExampleComponent from './ExampleComponent';
+//import Home from './Home';
+//import ExampleComponent from './ExampleComponent';
 import PageNotFound from './PageNotFound';
-import Breadcrumbs from './Breadcrumbs';
+//import Breadcrumbs from './Breadcrumbs';
 //import s from '../styles/app.style';
 
 export default function App() {
@@ -18,9 +18,7 @@ export default function App() {
         {/*<Route exact path="/" component={Home} />
         <Route path="/example" component={ExampleComponent} />*/}
         <Route component={PageNotFound} />
-
       </Switch>
-      
     </div>
   );
 }
