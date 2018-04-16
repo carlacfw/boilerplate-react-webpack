@@ -1,5 +1,6 @@
 import React from 'react';
 import jump from 'jump.js';
+import {Link} from 'react-router-dom';
 
 class Portfolio extends React.Component {
   render() {
@@ -29,6 +30,7 @@ class Portfolio extends React.Component {
           <a href="https://codepen.io/carlacfw/pen/MomqOe">MyCalculator</a>
         </div>
       </div>
+        <footer onClick={() => jump(-1000)}>Home</footer>
     </div>
     )
   }

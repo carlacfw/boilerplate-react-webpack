@@ -2,6 +2,7 @@ import React from 'react';
 import Interactive from 'react-interactive';
 import { Switch, Route } from 'react-router-dom';
 import {Link} from 'react-router-dom';
+import jump from 'jump.js';
 import Portfolio from './Portfolio';
 import Home from './Home';
 import ExampleComponent from './ExampleComponent';
@@ -19,7 +20,7 @@ export default function App() {
         <Route component={PageNotFound} />
 
       </Switch>
-      <footer><Link to='/'>Home</Link></footer>
+      
     </div>
   );
 }
