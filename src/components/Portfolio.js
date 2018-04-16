@@ -29,6 +29,7 @@ class Portfolio extends React.Component {
           <a href="https://codepen.io/carlacfw/pen/MomqOe">MyCalculator</a>
         </div>
       </div>
+      {/*jump(-1000) means negative pixels so it goes up instead of rolling down*/}
         <footer onClick={() => jump(-1000)}>Go Up</footer>
     </div>
     )
