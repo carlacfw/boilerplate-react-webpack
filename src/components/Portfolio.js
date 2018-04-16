@@ -6,7 +6,8 @@ class Portfolio extends React.Component {
     return (
       <div className='tech'>
         <div className='welcome'><h1>Welcome</h1>
-          <h2 onClick={() => jump('.links')}>Here are some small projects that I have developed</h2>
+{/* jump function when is clicked it jumps to the div tag that is been passed as an argument of the jump().*/}
+          <h2 className='jump'onClick={() => jump('.links')}>Here are some small projects that I have developed</h2>
         </div>
       <div className='links'>
         <div className='memoryGame'>
@@ -16,12 +17,12 @@ class Portfolio extends React.Component {
 
         <div className='sizzle'>
           <a href="https://sizzzle.herokuapp.com">Sizzle</a>
-          <p>Repo: <a href="https://github.com/SizzleDevelopers/sizzle">GitHub</a> </p>
+          <p>Repo: <a href="https://github.com/SizzleDevelopers/sizzle">GitHub Code</a> </p>
         </div>
 
         <div className='upsetkiwi'>
           <a href=" https://upsetkiwi.herokuapp.com">UpsetKiwi</a>
-          <p>Repo: <a href="https://github.com/carlacfw/upsetkiwi">GitHub</a></p>
+          <p>Repo: <a href="https://github.com/carlacfw/upsetkiwi">GitHub Code</a></p>
         </div>
 
         <div className='calculator'>
